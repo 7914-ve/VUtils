@@ -1,0 +1,16 @@
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        maven { url "https://jitpack.io" }
+        jcenter() // Warning: this repository is going to shut down soon
+        /**
+         * jcenter()指的就是由JFrog提供的JCenter仓库，几乎Android上所有的第三方开源项目都会选择将库发布到这里，
+         * 比如你在项目中集成的OkHttp、Retrofit、RxJava等等第三方库都是从这里拉取的。
+         * */
+    }
+}
+rootProject.name = "VUtils"
+include ':app'
+include ':vTools'
