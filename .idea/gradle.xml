@@ -12,7 +12,7 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
-            <option value="$PROJECT_DIR$/vTools" />
+            <option value="$PROJECT_DIR$/vutils" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

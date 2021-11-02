@@ -13,4 +13,4 @@ dependencyResolutionManagement {
 }
 rootProject.name = "VUtils"
 include ':app'
-include ':vTools'
+include ':vutils'
